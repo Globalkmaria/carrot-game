@@ -2,28 +2,21 @@
 
 ## What is CARROT GAME ?
 
-  <br>
+#### It's a simple game! You win when you collect all the carrots!
+
+#### But time is ticking and be careful with the bugs. If you touch the bug, you will be no longer be able to collect carrots.
+
+<br/>
   <img src="./src/firstpage.jpg" width="500">
-  <br>
   <img src="./src/game.jpg" width="500">
-  <br>
-It's a simple game! You win when you collect all the carrots in a limited time!  
-<br>
-But be careful with the bugs. If you touch the bug, you will be no longer be able to collect carrots. (Game over)
-  <br>
+:dart: 3 Game levels: Easy, Normal, Hard
+ <br/>
   <img src="./src/level.jpg" width="500">
-  <br>
-- 3 Game levels: Easy, Normal, Hard
-  <br>
+:dart: Pause button <br/>
+You can pause when there is something urgent. <br/> But don't forget to come back and collect all the carrots!
   <img src="./src/pause.jpg" width="500">
-  <br>
-- Pause button
--> You can pause when there is something urgent. But don't forget to come back and collect all the carrots!
-  <br>
   <img src="./src/lost.jpg" width="500">
-  <br>
   <img src="./src/won.jpg" width="500">
-  <br>
 
 ## Setup
 
