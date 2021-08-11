@@ -38,7 +38,7 @@ function updateTimer() {
 function startGame() {
   score = 0;
   time = maxTime;
-  scoreBox.textContent = `Score 0`;
+  scoreBox.textContent = `0`;
   timerBox.textContent = `00:${maxTime}`;
   buttonBox.innerHTML = `
   <button class="state-zone__btn pause-btn"><span>
@@ -64,8 +64,8 @@ function startGame() {
     bug.setAttribute('src', './src/bug.png');
     bug.setAttribute('id', i + maxItem);
     bug.className = 'bug';
-    const x = Math.floor(Math.random() * 90);
-    const y = Math.floor(Math.random() * 90);
+    const x = Math.floor(Math.random() * 93);
+    const y = Math.floor(Math.random() * 93);
     bug.style.top = `${y}%`;
     bug.style.left = `${x}%`;
     itemZone.appendChild(bug);
@@ -101,12 +101,12 @@ function onDelete(e) {
       const toBeDeleted = document.querySelector(`.carrot[id="${id}"]`);
       toBeDeleted.remove();
       score++;
-      scoreBox.textContent = `Score ${score}`;
+      scoreBox.textContent = `${score}`;
       if (score === maxItem) {
         stopTimer();
         popupBackground.className = 'popup';
         popup.innerHTML = `
-        <button class="popup__btn btn-replay"><i class="fas fa-reply"></i></button>
+        <button class="popup__btn btn-replay"><i class="fas fa-redo-alt"></i></button>
         <span class="popup__text">You Won</span>
         `;
         const replayBtn = document.querySelector('.btn-replay');
@@ -122,7 +122,7 @@ function onLose() {
   stopTimer();
   popupBackground.className = 'popup';
   popup.innerHTML = `
-  <button class="popup__btn btn-replay"><i class="fas fa-reply"></i></button>
+  <button class="popup__btn btn-replay"><i class="fas fa-redo-alt"></i></button>
   <span class="popup__text">You Lost</span>
   `;
   const replayBtn = document.querySelector('.btn-replay');
