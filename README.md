@@ -1,5 +1,7 @@
 # :video_game::carrot: CARROT GAME :carrot::video_game:
 
+Try the game ➡️ https://globalkmaria.github.io/carrot-game/
+
 ## What is CARROT GAME ?
 
 #### It's a simple game! You win when you collect all the carrots!
