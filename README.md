@@ -1,6 +1,6 @@
 # :video_game::carrot: CARROT GAME :carrot::video_game:
 
-Try the game ➡️ https://globalkmaria.github.io/carrot-game/
+Try this game ➡️ https://globalkmaria.github.io/carrot-game/
 
 ## What is CARROT GAME ?
 
@@ -9,16 +9,16 @@ Try the game ➡️ https://globalkmaria.github.io/carrot-game/
 #### But time is ticking and be careful with the bugs. If you touch the bug, you will be no longer be able to collect carrots.
 
 <br/>
-  <img src="./src/firstpage.jpg" width="500">
-  <img src="./src/game.jpg" width="500">
+  <img src="./src/img/firstpage.jpg" width="500">
+  <img src="./src/img/game.jpg" width="500">
 :dart: 3 Game levels: Easy, Normal, Hard
  <br/>
   <img src="./src/level.jpg" width="500">
 :dart: Pause button <br/>
 You can pause when there is something urgent. <br/> But don't forget to come back and collect all the carrots!
-  <img src="./src/pause.jpg" width="500">
-  <img src="./src/lost.jpg" width="500">
-  <img src="./src/won.jpg" width="500">
+  <img src="./src/img/pause.jpg" width="500">
+  <img src="./src/img/lost.jpg" width="500">
+  <img src="./src/img/won.jpg" width="500">
 
 ## Setup
 
